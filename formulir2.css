@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BODY */
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #0d47a1, #020617 70%);
+    color: #e5e7eb;
+    padding: 40px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+/* PROGRESS */
+.progress {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.step {
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    border: 1px solid #1e3a8a;
+    color: #93c5fd;
+}
+
+.step.active {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* FORM CARD */
+form {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    border: 1px solid #1e3a8a;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(37, 99, 235, 0.15);
+}
+
+form h2 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: #60a5fa;
+    font-weight: 800;
+}
+
+/* LABEL */
+label {
+    font-size: 13px;
+    margin-bottom: 6px;
+    display: block;
+    color: #c7d2fe;
+}
+
+/* INPUT, SELECT, TEXTAREA */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: 1px solid #1e3a8a;
+    background: #020617;
+    color: #e5e7eb;
+    font-size: 13px;
+    outline: none;
+}
+
+/* PLACEHOLDER */
+input::placeholder,
+textarea::placeholder {
+    color: #64748b;
+}
+
+/* SELECT */
+select {
+    cursor: pointer;
+}
+
+/* TEXTAREA */
+textarea {
+    resize: none;
+}
+
+/* FILE INPUT */
+input[type="file"] {
+    padding: 10px;
+    background: #020617;
+    cursor: pointer;
+}
+
+/* FOCUS STATE */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* BUTTON */
+button {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 30px rgba(37, 99, 235, 0.35);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(37, 99, 235, 0.55);
+}
+
+/* LINK */
+.btn-link {
+    display: inline-block;
+    padding: 14px;
+    margin-top: 14px;
+    font-size: 15px;
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
