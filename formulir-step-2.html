@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulir2.css">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="progress">
+            <div class="step">Proses 1: Data Tim</div>
+            <div class="step active">Proses 2: Data Karya</div>
+        </div>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <h2>Data Karya</h2>
+
+            <label for="judul">Judul Karya</label>
+            <input type="text" name="judul" id="judul" required>
+
+            <label for="kategori">Kategori</label>
+            <select name="kategori" id="kategori" required>
+                <option value="web-development">Web Development</option>
+                <option value="game">Game</option>
+                <option value="AI-MachineLearning">AI & Machine Learning</option>
+            </select>
+
+            <label for="deskripsi">Deskripsi Konsep</label>
+            <textarea name="deskripsi" id="deskripsi" rows="5" placeholder="Min. 200 Kata" required></textarea>
+
+            <label for="masalah">Masalah yang Dipecahkan</label>
+            <textarea name="masalah" id="deskripsi" rows="5" required></textarea>
+
+            <label for="solusi">Solusi yang Ditawarkan</label>
+            <textarea name="solusi" id="solusi" rows="5" required></textarea>
+
+            <label for="inovasi">Innovation Point</label>
+            <textarea name="inovasi" id="inovasi" rows="3" required></textarea>
+
+            <label for="repository">Link Repository (Github/Gitlab)</label>
+            <input type="url" name="repository" id="repository" required>
+
+            <label for="demo">Link Demo/Vidio Pitch</label>
+            <input type="url" name="demo" id="demo" required>
+
+            <label for="proposal">Upload Proposal (PDF, Maksimal 10MB)</label>
+            <input type="file" name="proposal" id="proposal" accept="application/pdf" required>
+
+            <a href="formulir-step-1.html" class="btn-link secondary">Kembali</a>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
