@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulir1.css">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <!-- PROGRESS -->
+     <div class="progress">
+        <div class="step active">Proses 1: Data Tim</div>
+        <div class="step">Proses 2: Data Karya</div>
+     </div>
+
+    <form action="formulir-step-2.html" method="get">
+        <h2>Data Tim</h2>
+
+        <label for="nama-tim">Nama Tim</label>
+        <input type="text" name="nama-tim" id="nama-tim" required>
+
+        <h3 id="header-anggota">Anggota 1</h3>
+
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="nomor">Nomor Telepon/WhatsApp</label>
+        <input type="tel" name="telepon" id="telepon" placeholder="Contoh: 081234567890" pattern="(0)[0-9]{5,20}" required>
+
+        <label for="asal">Asal Sekolah/Universitas</label>
+        <input type="text" name="asal" id="asal" required>
+
+        <h3 id="header-anggota">Anggota 2</h3>
+
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="nomor">Nomor Telepon/WhatsApp</label>
+        <input type="tel" name="telepon" id="telepon" placeholder="Contoh: 081234567890" pattern="(0)[0-9]{5,20}" required>
+
+        <label for="asal">Asal Sekolah/Universitas</label>
+        <input type="text" name="asal" id="asal" required>
+
+        <h3 id="header-anggota">Anggota 3</h3>
+
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="nomor">Nomor Telepon/WhatsApp</label>
+        <input type="tel" name="telepon" id="telepon" placeholder="Contoh: 081234567890" pattern="(0)[0-9]{5,20}" required>
+
+        <label for="asal">Asal Sekolah/Universitas</label>
+        <input type="text" name="asal" id="asal" required>
+
+        <a href="index.html" class="btn-link secondary">Batal</a>
+        <button type="submit">Selanjutnya</button>
+    </form>
+</div>
+</body>
+</html>
