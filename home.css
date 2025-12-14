@@ -40,7 +40,7 @@
     }
 
     .image-content h2 {
-      font-size: 40px;
+      font-size: 35px;
       font-weight: 800;
       margin-bottom: 18px;
       color: #ffffff;
@@ -48,7 +48,7 @@
 
     .image-content p {
       font-size: 18px;
-      line-height: 1.7;
+      line-height: 1.5;
       color: #dbeafe;
     }
 
@@ -93,7 +93,7 @@
     }
 
     .info-box p {
-      margin: 0;
+      margin: 0px;
       font-size: 15px;
       line-height: 1.6;
       color: #e5e7eb;
@@ -146,17 +146,6 @@
       font-weight: 800;
       letter-spacing: 1px;
       color: #60a5fa;
-    }
-
-    .info-box i,
-    .instruction i {
-      font-size: 20px;
-      color: #60a5fa;
-      margin-top: 2px;
-    }
-
-    .instruction span {
-      display: inline-block;
     }
 
     /* RESPONSIVE */
